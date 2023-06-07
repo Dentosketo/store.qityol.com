@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Signup Screen</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      .image-container {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signup-container">
+      <form class="signup-form">
+        <div class="sign_up-image-container">
+          <img src="assets/signupimg.png" alt="Enter OTP Image">
+        </div>
+        <div class="signup-info">
+          <h2 class="signup-title">Let’s Get Started</h2>
+          <p class="signup-subtitle">Create an account to get all features</p>
+        </div>
+        <input type="text" name="full-name" class="input" placeholder="Enter your full name">
+        <input type="text" name="email" class="input" placeholder="Enter your email">
+        <input type="password" name="password" class="input" placeholder="Enter your password">
+        <input type="password" name="confirm-password" class="input" placeholder="Confirm your password">
+        <input type="submit" value="Sign up" class="signup-button">
+        <div class="divider">
+          <div class="divider-line"></div>
+          <div class="divider-text">You can Connect with</div>
+          <div class="divider-line"></div>
+        </div>
+        <a href="#">
+          <img src="assets/icons8-google-48.png" alt="Google Icon" width="40px" height="40px">
+        </a>
+        <p class="signup-hint">Already have an account? <a href="login.html" class="orange-link">Sign in here</a></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

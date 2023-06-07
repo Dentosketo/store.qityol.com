@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Login Screen</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .forgot-password {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+      text-align: right;
+      cursor: pointer;
+    }
+
+    .forgot-password a {
+      color: #666;
+      text-decoration: none;
+    }
+
+    .sign-up-text {
+      color: #666;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .orange-link {
+      color: #ff6600;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form">
+      <div class="image-container">
+        <img src="assets/Enter OTP-bro.png" alt="Enter OTP Image">
+      </div>
+      <div class="signup-info">
+        <h2 class="signup-title">Welcome back!</h2>
+        <p class="signup-subtitle">Login to continue</p>
+      </div>
+      <input type="text" name="email" class="input" placeholder="Enter your email">
+      <input type="password" name="password" class="input" placeholder="Enter your password">
+      <div class="forgot-container">
+        <p class="forgot-password">Forgot password?</p>
+      </div>      
+      <input type="submit" value="Sign in" class="login-button">
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div class="divider-text">You can Connect with</div>
+        <div class="divider-line"></div>
+      </div>
+      <a href="#">
+        <img src="assets/icons8-google-48.png" alt="Google Icon" width="40px" height="40px">
+      </a>
+      <p class="sign-up-text">Don't have an account? <a href="signup.html" class="orange-link">Sign up here</a></p>      
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
